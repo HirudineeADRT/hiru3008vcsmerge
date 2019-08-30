@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0ec2a59c-b419-4338-b1b5-214735c0fa81": {
+        "id": "0ec2a59c-b419-4338-b1b5-214735c0fa81",
+        "parent": null,
+        "name": "hiru3008vcsmerge",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "66c783f2-f00d-41ee-bb43-f1b7cbde6ac7"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru3008vcsmerge"
+      },
+      "66c783f2-f00d-41ee-bb43-f1b7cbde6ac7": {
+        "id": "66c783f2-f00d-41ee-bb43-f1b7cbde6ac7",
+        "parent": "0ec2a59c-b419-4338-b1b5-214735c0fa81",
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru3008vcsmerge/function.js",
+        "code": "exports.handler = function(request, response) {\n    \n    response.send({\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "b360a878-387b-4da0-98f4-e0fc5f23cb0f": {
+        "id": "b360a878-387b-4da0-98f4-e0fc5f23cb0f",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js",
+        "code": "// This file is used to register all your cloud functions in GCP.\n// DO NOT EDIT/DELETE THIS, UNLESS YOU KNOW WHAT YOU ARE DOING.\n\nexports.hiru3008vcsmergefunction = require(\"./hiru3008vcsmerge/function.js\").handler;"
+      },
+      "c9888ff4-8324-48d6-b2f2-c1248fe3c02c": {
+        "id": "c9888ff4-8324-48d6-b2f2-c1248fe3c02c",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py",
+        "code": "# This file is used to register all your cloud functions in GCP.\n# DO NOT EDIT/DELETE THIS, UNLESS YOU KNOW WHAT YOU ARE DOING.\n\n"
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "0ec2a59c-b419-4338-b1b5-214735c0fa81",
+    "openFiles": [
+      "66c783f2-f00d-41ee-bb43-f1b7cbde6ac7"
+    ],
+    "currentFileId": "66c783f2-f00d-41ee-bb43-f1b7cbde6ac7",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru3008vcsmerge",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "platformRegions": {},
+    "lastSave": 1567155993435
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru3008vcsmerge",
+      "url": "https://github.com/HirudineeADRT/hiru3008vcsmerge"
+    }
+  }
+}
